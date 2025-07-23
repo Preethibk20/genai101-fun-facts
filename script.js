@@ -7,7 +7,7 @@ const facts = [
 ];
 
 function generateFact() {
-    const factDisplay = document.getElementById('fact-display');
+    const factDisplay = document.getElementById('fact');
     const randomIndex = Math.floor(Math.random() * facts.length);
     factDisplay.textContent = facts[randomIndex];
 }
